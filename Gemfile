@@ -42,6 +42,7 @@ gem 'aasm'
 gem 'rails-erd'
 gem 'carrierwave-qiniu'
 gem 'qiniu-rs'
+gem 'figaro'
 
 group :development, :test do
   gem 'pry'
