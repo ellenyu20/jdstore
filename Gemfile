@@ -40,6 +40,8 @@ gem 'acts_as_list'
 gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'rails-erd'
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
 
 group :development, :test do
   gem 'pry'
