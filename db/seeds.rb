@@ -25,7 +25,7 @@ end
     description: "深度：2.5CM 盘口直径：26CM 盘底直径：16CM",
     price: 298,
     quantity: 5,
-    image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/380/380846.jpg")
+    image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/354/354800.jpg")
     )
 
   Product.create!(title: "gogo family-漫步云端 鸡年纪念盘",
