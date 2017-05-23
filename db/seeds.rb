@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Initialize Admin User
-if User.find_by(email: "admin@test.com").nil?
+if User.find_by(email: "evetteyu20@gmail.com").nil?
   u = User.new
-  u.email = "admin@gmail.com"
+  u.email = "evetteyu20@gmail.com"
   u.password = "123456"
   u.password_confirmation = "123456"
   u.is_admin = true
@@ -21,23 +21,23 @@ end
 
 # Intialize Product
 
- Product.create!(title: "Mojito 蛋糕",
-    description: "蛋糕",
+ Product.create!(title: "HYBRID中西融合系列 骨瓷菜盘",
+    description: "深度：2.5CM 盘口直径：26CM 盘底直径：16CM",
     price: 298,
     quantity: 5,
-    image: open("http://www.mcake.com/postsystem/docroot/images/goods/20150818/2024/middle_2024_1.jpg")
+    image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/380/380846.jpg")
     )
 
-  Product.create!(title: "蓝莓拿破仑",
-    description: "蛋糕",
+  Product.create!(title: "gogo family-漫步云端 鸡年纪念盘",
+    description: "深度：2.5CM 盘口直径：26CM 盘底直径：16CM",
     price: 299,
     quantity: 5,
-    image: open("http://mcake.oss-cn-hangzhou.aliyuncs.com/goods/lanmeiqingrunapolun/N0301/middle/1.jpg")
+    image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/373/373935.jpg")
     )
 
-  Product.create!(title: "草莓鲜奶蛋糕",
-    description: "蛋糕",
-    price: 297,
+  Product.create!(title: "礼盒“福”字款",
+    description: "小蓝边碗",
+    price: 699,
     quantity: 5,
-    image: open("http://www.mcake.com/postsystem/docroot/images/goods/20141208/1471/middle_1471_1.jpg")
+    image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/306/306268.jpg")
     )
