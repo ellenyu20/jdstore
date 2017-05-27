@@ -35,9 +35,18 @@ end
     image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/373/373935.jpg")
     )
 
-  Product.create!(title: "礼盒“福”字款",
+  Product.create!(title: "礼盒“福”字款小蓝边碗",
     description: "小蓝边碗",
     price: 699,
     quantity: 5,
     image: open("http://imgs-qn.iliangcang.com/ware/upload/orig/2/306/306268.jpg")
+    category_id: 1
+    )
+
+  Product.create!(title: "迷你便携式果汁榨汁机",
+    description: "MR9200-A果汁料理机",
+    price: 328,
+    quantity: 5,
+    image: open("https://ws3.sinaimg.cn/large/006tNc79gy1ffvr0obs1nj30m80m83yt.jpg")
+    category_id: 2
     )
